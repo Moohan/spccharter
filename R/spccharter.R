@@ -14,12 +14,12 @@
 #' @param numerator numeric value representing the number of defect(s)
 #' @param denominator sample size
 #' @param datecol name of date column
-#' @param by  a single unquoted  variable or character vector oflength 2
-#' indicating desired grouping variable(s) . You must supply a grouping variable .
+#' @param by  a single unquoted  variable or character vector of length 2
+#' indicating desired grouping variable(s) . You must supply a grouping variable.
 #' @param plot_type 'c', 'p' or 'u' chart
 #' @param initial_rows number of points to calculate initial baseline mean
 #' @param look_forward number of rows to rebase limits on, including those in the sustained run
-#' @param runlength length of desired run. Less than 8 may not be statisticall significant
+#' @param runlength length of desired run. Less than 8 may not be statistically significant
 #' @param direction should run occur "above", "below" or on "both" sides of the mean line
 
 
